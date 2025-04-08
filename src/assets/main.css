@@ -1,0 +1,93 @@
+@import 'tailwindcss';
+/* 
+
+@font-face {
+  font-family: "Motiva Sans Light";
+  src: url("../../public/fonts/Motiva-Sans-Light.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Motiva Sans Bold";
+  src: url("../../public/fonts/Motiva-Sans-Bold.ttf") format("truetype");
+  font-style: normal;
+}
+@layer base {
+  html,
+  body,
+  a {
+    @apply font-[font-motiva-light] text-primary;
+  }
+
+  body {
+    @apply m-0 p-0 bg-white overflow-x-hidden;
+  }
+
+  a {
+    @apply text-secondary no-underline;
+  }
+
+  a:hover {
+    @apply text-primary;
+  }
+
+  input,
+  textarea {
+    @apply w-full py-4 px-5 bg-gray-200 rounded border-0 outline-none transition-all duration-300;
+  }
+
+  input:focus-within,
+  textarea:focus-within {
+    @apply bg-transparent border-primary shadow-md;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-motiva-bold text-primary leading-tight;
+  }
+
+  h1 {
+    @apply text-56;
+  }
+
+  h2 {
+    @apply text-47;
+  }
+
+  h3 {
+    @apply text-32;
+  }
+
+  p {
+    @apply text-primary text-xl leading-relaxed;
+  }
+
+  *:focus {
+    @apply outline-none;
+  }
+
+  
+  .about-block-image svg {
+    @apply text-center;
+  }
+
+  .ant-drawer-body {
+    @apply flex flex-col text-left pt-6;
+  }
+
+  .ant-drawer-content-wrapper {
+    @apply w-72 !important;
+  }
+}
+
+.font-motiva-light {
+  font-family: "Motiva Sans Light", sans-serif;
+}
+
+.font-motiva-bold {
+  font-family: "Motiva Sans Bold", sans-serif;
+} */
