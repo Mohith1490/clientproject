@@ -51,24 +51,24 @@
         </div>
         
         <!-- Language Section -->
-        <div>
+        <!-- <div>
           <label for="select-lang" class="text-lg font-semibold">{{ "Language" }}</label>
           <div class="flex space-x-4">
             <button @click="handleChange('en')" class="flex items-center justify-center p-2 rounded-full bg-white">
-              <img src="`/img/svg/united-states.svg`" alt="spain" width="30px" height="30px" />
+              <img src="`/img/svg/unitedstates.svg`" alt="spain" width="30px" height="30px" />
             </button>
             <button @click="handleChange('es')" class="flex items-center justify-center p-2 rounded-full bg-white">
               <img src="`/img/svg/spain.svg`" alt="spain" width="30px" height="30px" />
             </button>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
 
     <div class="bg-gray-200 py-6">
       <div class="container mx-auto px-6 flex justify-between items-center flex-wrap">
         <RouterLink to="/" class="flex items-center">
-          <img src="`/img/svg/logo.svg`" alt="logo" width="101px" height="64px" />
+          <img src="/img/svg/logo.svg" alt="logo" width="101px" height="64px" />
         </RouterLink>
         <div class="flex space-x-6 mt-4 sm:mt-0">
           <SocialLink href="https://github.com/Adrinlol/create-react-app-adrinlol" src="github" />
@@ -90,7 +90,7 @@ import { RouterLink } from "vue-router";
 export default {
   name: "Footer",
   components: {
-    RouterLink
+    RouterLink,
   },
   setup() {
     const handleChange = (language) => {

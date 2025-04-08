@@ -5,7 +5,7 @@
       v-show="showScroll"
       class="fixed bottom-8 right-8 z-10 p-2 cursor-pointer bg-gray-200 text-center flex items-center rounded-md transition-all duration-300 hover:bg-gray-300 focus:outline-none"
     >
-      <SvgIcon src="scroll-top.svg" width="20px" height="20px" />
+      <SvgIcon src="scrolltop.svg" width="20px" height="20px" />
     </div>
   </template>
   
